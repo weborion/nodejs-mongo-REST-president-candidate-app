@@ -1,0 +1,52 @@
+extends layout
+
+block content
+    h1= title
+    p Demo App for Node.JS, MongoDB, REST Operations
+
+    // Container
+    #container
+
+      
+        #candidateInfo
+            h2 Candidate Info
+            p
+                b Name:
+                |  <span id='candidateInfoName'></span>
+                br
+                b Age:
+                |  <span id='candidateInfoAge'></span>
+                br
+                b Gender:
+                |  <span id='candidateInfoGender'></span>
+                br
+                b Location:
+                |  <span id='candidateInfoLocation'></span>
+
+        h2 User List
+        #candidateList
+            table
+                thead
+                    th CandidateName
+                    th Email
+                    th Delete?
+                tbody
+        
+
+        
+        h2 Add Candidate
+        #addCandidate
+            fieldset
+                input#inputCandidateName(type='text', placeholder='Candidate')
+                input#inputCandidateEmail(type='text', placeholder='Email')
+                br
+                input#inputCandidateFullname(type='text', placeholder='Full Name')
+                input#inputCandidateAge(type='text', placeholder='Age')
+                br
+                input#inputCandidateLocation(type='text', placeholder='Location')
+                input#inputCandidateGender(type='text', placeholder='gender')
+                br
+                button#btnAddCandidate Add User
+        
+
+    // /WRAPPER

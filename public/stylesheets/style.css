@@ -1,0 +1,77 @@
+body {
+  padding: 20px;
+  font: 16px "Helvetica", Calibri, Arial, sans-serif;
+}
+
+h2 {
+	margin:0 0 .5em 0;
+}
+
+a {
+  color: #1d0fb2;
+}
+
+#container {
+	padding-left:312px;
+	position:relative;
+}
+#btnAddCandidate{
+
+	-moz-user-select: none;
+    background-image: none;
+    background-color:#5cb85c;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    margin-top:1em;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+#candidateList {
+	margin:0 0 20px 0;
+}
+#candidateList table {
+		border-collapse:separate;
+		border-spacing:1px;
+		background:#CCC;
+}
+#candidateList table th {
+			background:#E0E0E0;
+			font-weight:600;
+			padding:10px 20px;
+			text-align:center;
+}
+#candidateList table tbody {
+			padding:0; margin:0;
+			border-collapse:collapse;
+			border-spacing:0px;
+}
+#candidateList table td {
+				background:#FFF;
+				padding:5px 10px;
+				text-align:center;
+}
+
+#candidateInfo {
+	width:250px;
+	position:absolute;
+	top:0; left:0;
+}
+
+#candidateInfo p {
+		padding:15px;
+		border:1px solid #CCC;
+		background:#c8c8c8;
+}
+
+fieldset {
+	border:0;
+	padding:0; margin:0;
+}
